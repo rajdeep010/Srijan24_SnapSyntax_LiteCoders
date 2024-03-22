@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+    /* font-family: sans-serif; */
+    font-family: "Manrope", sans-serif;
+}
+
+.main{
+    padding: 2.5rem 6rem;
+}
+
+ul{
+    list-style: none;
+}
+
+
+.navContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+
+}
+
+.navSecond div ul{
+    display: flex;
+}
+
+.navSecond{
+    /* border: 2px solid blue; */
+    margin-top: 0.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navLeft ul, 
+.navRight ul{
+    display: flex;
+    gap: 3.4rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.navFirst{
+    margin-right: 4rem;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid green; */
+    width: 200px;
+    margin-top: 0.7rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.heroSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heroHeading{
+    margin-top: 8rem;
+}
+
+.heroHeading .mainHeading .hh{
+    font-size: 7rem;
+    font-weight: bold;
+    line-height: 0.9;
+}
+
+.heroHeading .mainHeading .senior{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroHeading .smallHeading{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.3rem 4rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+.heroImage{
+    margin-top: 1.4rem;
+}
+
+.heroImage img{
+    height: 30rem;
+    width: 20rem;
+    border-radius: 1.5rem;
+}
+
+.mainHeading .designer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0.6rem;
+}
+
+
+/* 2nd section */
+.second_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+    padding: 8rem 0;
+}
+
+.second_section_first_heading,
+.second_section_second_heading{
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+
+.second_section_first_heading{
+    color: rgba(199, 199, 199, 0.72);
+}
+
+.ssfh1,
+.ssfh3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 3rd section */
+.third_section{
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    padding: 4rem 0;
+}
+
+.third_heading .th1, .th2{
+    font-size: 5.7rem;
+    font-weight: bold;
+    line-height: 0.9;
+}
+
+.third_content{
+    display: flex;
+    justify-content: end;
+    padding: 0.5rem 0;
+    flex-direction: column;
+    align-items: end;
+}
+
+
+.third_content_second_heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.thc1{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 50%;
+    padding: 1.5rem 0 0.8rem 0;
+    border-bottom: 2px solid #dedede;
+}
+
+.thc1_hh1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.thc1_hh2{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.third_content_second_heading{
+    width: 70%;
+}
+
+
+/* footer */
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 4rem 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerRight{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.frb1_hh{
+    margin-bottom: 0.5rem;
+}
+
+button{
+    outline: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: white;
+    width: fit-content;
+}
+
+.footerRightTop{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.footerRightBottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social_icons{
+    display: flex;
+    flex-direction: column;
+}
+
+.social_icon_top, 
+.social_icon_bottom{
+    display: flex;
+    gap: 1.2rem;
+}
+
+.jenelee{
+    font-weight: 700;
+}
+
+.frb1_hh{
+    opacity: 0.7;
+}
+
+.footerLeftImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.footerLeftImage img{
+    height: 15rem;
+    /* width: 15rem; */
+}
